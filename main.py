@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-BOT_TOKEN = "8543246126:AAHgUxybfBOWj4mhb7gY6bTsSJLvOLcmltg"
+BOT_TOKEN = "8543246126:AAFZ_cHgQKMZKPUFyVlmiZ9KycwedWLMJoE"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("✅ Glory89 Bot is Online!")
